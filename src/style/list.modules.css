@@ -1,0 +1,34 @@
+.list {
+  width: 40%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.bi {
+  font-size: 1.6rem;
+  display: inline-block;
+}
+.b1 {
+  color: rgb(31, 31, 172);
+}
+.b2 {
+  color: rgb(198, 201, 51);
+}
+.b3 {
+  color: #c52b2b;
+}
+
+.b4 {
+  color: #5f4a9a;
+}
+
+.txt {
+  font-size: 1.3rem;
+  display: inline-block;
+  margin: 0px 10px;
+
+  font-family: "Quicksand", sans-serif;
+}

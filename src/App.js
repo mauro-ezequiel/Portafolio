@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Nabar from "./components/bar";
+import "./App.css";
+import List from "./components/list";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <section className="dark">
+      <Nabar />
+      <header className="container">
+        <h1 className="title">
+          Mauro Quispe
+          <h2 className="title__two">
+            Web developer
+            <h3 className="title__two-development">Front-end</h3>
+          </h2>
+        </h1>
       </header>
-    </div>
+      <div className="body1">
+        <List />
+      </div>
+    </section>
   );
 }
-
-export default App;

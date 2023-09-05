@@ -1,0 +1,26 @@
+.bar {
+  display: flex;
+}
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+  width: 100vw !important;
+  padding: 2rem;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  margin-left: 15rem;
+}
+
+.navbar-collapse {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 800px) {
+  .navbar-brand {
+    margin-left: 5rem;
+  }
+}
