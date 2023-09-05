@@ -1,10 +1,12 @@
 import Nabar from "./components/bar";
 import "./App.css";
 import List from "./components/list";
+import ParticlesApp from "./components/particlesApp";
 
 export default function App() {
   return (
     <section className="dark">
+      <ParticlesApp />
       <Nabar />
       <header className="container">
         <h1 className="title">
