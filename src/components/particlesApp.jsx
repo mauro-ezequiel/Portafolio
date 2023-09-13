@@ -9,7 +9,7 @@ const ParticlesApp = () => {
   }, []);
 
   return (
-    <div>
+    <div className="particles">
       <Particles options={ParticlesConfig} init={particlesInit} />
     </div>
   );

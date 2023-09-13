@@ -2,12 +2,15 @@ import Nabar from "./components/bar";
 import "./App.css";
 import List from "./components/list";
 import ParticlesApp from "./components/particlesApp";
+import Project from "./components/project";
+import Contact from "./components/contact";
 
 export default function App() {
   return (
     <section className="dark">
       <ParticlesApp />
       <Nabar />
+
       <header className="container">
         <h1 className="title">
           Mauro Quispe
@@ -20,6 +23,8 @@ export default function App() {
       <div className="body1">
         <List />
       </div>
+      <Project />
+      <Contact />
     </section>
   );
 }
