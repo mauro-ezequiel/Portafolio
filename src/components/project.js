@@ -8,9 +8,12 @@ function Project() {
 
   return (
     <section className="dark">
-      <h1 className="title"> project</h1>
+      <h1 className="title" id="Project">
+        {" "}
+        project
+      </h1>
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-lg-4">
           <div className="card">
             <Card image={Pages} alt="briefcase" />
             <div id="cap">
@@ -24,7 +27,7 @@ function Project() {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-lg-4">
           <div className="card">
             <Card image={Pages} alt="briefcase" />
             <div className="cap">
@@ -38,7 +41,7 @@ function Project() {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-lg-4">
           <div className="card">
             <Card image={Pages} alt="briefcase" />
             <div className="cap">
@@ -55,7 +58,7 @@ function Project() {
       </div>
       <h1 className="title"> exercise</h1>
       <div className="row">
-        <div className="col-md-4">
+        <div className="col-lg-4">
           <div className="card">
             <Card image={Pages} alt="briefcase" />
             <div className="cap">
@@ -69,7 +72,7 @@ function Project() {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-lg-4">
           <div className="card">
             <Card image={Pages} alt="briefcase" />
             <div className="cap">
@@ -83,7 +86,7 @@ function Project() {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-lg-4">
           <div className="card">
             <Card image={Pages} alt="briefcase" />
             <div className="cap">

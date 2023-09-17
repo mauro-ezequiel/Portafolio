@@ -5,7 +5,7 @@ function Navbar() {
   console.log(style);
   return (
     <div className="bar">
-      <nav class="navbar navbar-expand-md  ">
+      <nav class="navbar navbar-expand-lg  ">
         <div class="container-fluid">
           <a className="navbar-brand" href="#a">
             Mauro Quispe
@@ -24,17 +24,17 @@ function Navbar() {
           <div class="collapse navbar-collapse" id="navbar-toggler">
             <ul class="navbar-nav ">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">
+                <a class="nav-link active" aria-current="page" href="#Home">
                   Home
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/Project">
+                <a class="nav-link" href="#Project">
                   Project
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/Contact">
+                <a class="nav-link" href="#Contact">
                   Contact
                 </a>
               </li>

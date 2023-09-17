@@ -7,7 +7,7 @@ import Contact from "./components/contact";
 
 export default function App() {
   return (
-    <section className="dark">
+    <section className="dark" id="Home">
       <ParticlesApp />
       <Nabar />
 
@@ -20,11 +20,14 @@ export default function App() {
           </h2>
         </h1>
       </header>
-      <div className="body1">
-        <List />
-      </div>
+      <div className="body1"></div>
+      <List />
       <Project />
       <Contact />
+
+      <a href="https://wa.me/541150941389" id="btn" target="-blank">
+        <i class="b bi-whatsapp" />
+      </a>
     </section>
   );
 }
