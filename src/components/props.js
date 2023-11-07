@@ -6,7 +6,7 @@ function Card(props) {
 
   return (
     <div className="card">
-      <img className="img" src={props.image} alt={props.alt} />
+      <video className="mp4" src={props.mp4} controls autoplay></video>
     </div>
   );
 }
