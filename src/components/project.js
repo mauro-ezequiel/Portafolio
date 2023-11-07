@@ -35,6 +35,9 @@ function Project() {
             </div>
           </div>
         </div>
+
+        <div className="col-lg-4"></div>
+
         <div className="col-lg-4">
           <div className="card">
             <Card mp4={cell} />
@@ -47,21 +50,6 @@ function Project() {
                 href="https://earnest-pothos-6d3821.netlify.app/"
                 target="-blank"
               >
-                <i class="be bi-laptop"></i>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4">
-          <div className="card">
-            <Card />
-
-            <div className="cap">
-              <h2 className="sub">briefcase</h2>
-              <a href="https://github.com/mauro-ezequiel" target="-blank">
-                <i class="be5 bi-github"></i>
-              </a>
-              <a href="https://github.com/mauro-ezequiel">
                 <i class="be bi-laptop"></i>
               </a>
             </div>
