@@ -88,3 +88,12 @@ section {
   color: rgb(25, 177, 45);
   background: #fff;
 }
+
+.x {
+  width: 90vw;
+  margin: auto;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
