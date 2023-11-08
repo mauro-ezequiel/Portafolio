@@ -20,7 +20,7 @@ function Project() {
       <div className="row">
         <div className="col-lg-4">
           <div className="card">
-            <Card img={venta} />
+            <Card img={venta} t="basic calculations calculator" />
             <div id="cap">
               <h2 className="sub">briefcase</h2>
               <a href="https://github.com/mauro-ezequiel" target="-blank">
