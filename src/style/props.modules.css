@@ -1,9 +1,14 @@
 .img {
   border-radius: 12px;
+  height: 11em;
 }
 
 .txt {
   font-size: 1rem;
   font-weight: bold;
   font-family: sans-serif;
+}
+
+.container {
+  height: 4em;
 }
