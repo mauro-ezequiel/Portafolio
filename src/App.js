@@ -1,4 +1,4 @@
-import Nabar from "./components/bar";
+import Bar from "./components/bar";
 import "./App.css";
 import List from "./components/list";
 import ParticlesApp from "./components/particlesApp";
@@ -7,9 +7,9 @@ import Contact from "./components/contact";
 
 export default function App() {
   return (
-    <section className="dark" id="Home">
+    <section className="dark">
       <ParticlesApp />
-      <Nabar />
+      <Bar />
 
       <header className="container">
         <h1 className="title">
@@ -19,8 +19,20 @@ export default function App() {
             <h3 className="title__two-development">Front-end</h3>
           </h2>
         </h1>
+
+        <div className="s">
+          <h2 className=" h">
+            <i className="b1  bi-calendar4-event" />
+            20 year
+          </h2>
+
+          <h2 className=" h">
+            <i className="b1 bi-geo-alt" />
+            ARGENTINA
+          </h2>
+        </div>
       </header>
-      <div className="body1"></div>
+
       <List />
       <Project />
       <Contact />

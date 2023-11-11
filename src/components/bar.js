@@ -7,7 +7,7 @@ function Navbar() {
     <div className="bar">
       <nav class="navbar navbar-expand-lg  ">
         <div class="container-fluid">
-          <a className="navbar-brand" href="#a">
+          <a className="navbar-brand" href="/">
             Mauro Quispe
           </a>
           <button
@@ -24,18 +24,14 @@ function Navbar() {
           <div class="collapse navbar-collapse" id="navbar-toggler">
             <ul class="navbar-nav ">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#Home">
+                <a class="nav-link active" aria-current="page" href="/">
                   Home
                 </a>
               </li>
+
               <li class="nav-item">
-                <a class="nav-link" href="#Project">
-                  Project
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Contact">
-                  Contact
+                <a class="nav-link active" aria-current="page" href="/cv">
+                  curriculum
                 </a>
               </li>
             </ul>

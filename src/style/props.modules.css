@@ -1,14 +1,25 @@
 .img {
-  border-radius: 12px;
+  border-radius: 1em;
   height: 11em;
 }
 
 .txt {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: bold;
   font-family: sans-serif;
+  color: aliceblue;
 }
 
 .container {
   height: 4em;
+}
+
+.ca {
+  border-radius: 1em;
+  height: 13em;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

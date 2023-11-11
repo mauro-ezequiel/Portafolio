@@ -5,8 +5,8 @@ function Card(props) {
   console.log(style);
 
   return (
-    <div className="card">
-      <img className="img" src={props.img} alt={props.alt} />
+    <div className="ca">
+      <img className="img " src={props.img} alt={props.alt} />
       <div className="container">
         <h1 className="txt">information:{props.t}.</h1>
       </div>

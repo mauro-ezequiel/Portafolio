@@ -32,6 +32,9 @@ section {
 }
 
 /*title*/
+.container {
+  margin-bottom: -5em;
+}
 
 .title {
   font-size: 1.7rem;
@@ -58,6 +61,7 @@ section {
   margin-top: 6px;
 }
 
+/* general */
 .dark {
   background-color: black;
   color: azure;
@@ -89,6 +93,7 @@ section {
   background: #fff;
 }
 
+/* estilos especificos*/
 .x {
   width: 90vw;
   margin: auto;
@@ -96,4 +101,57 @@ section {
   top: 0;
   left: 0;
   right: 0;
+}
+
+.h {
+  display: inline;
+  margin: 1.5em;
+  font-size: 1.5rem;
+}
+.s {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -2em;
+}
+
+.b1 {
+  font-size: 2rem;
+  color: rgb(20, 92, 126);
+  font-weight: bold;
+}
+
+@media screen and (max-width: 820px) {
+  .h {
+    font-size: 1rem;
+    margin: 1em;
+  }
+
+  .b1 {
+    font-size: 1.5rem;
+  }
+  s {
+    margin-top: -1em;
+  }
+
+  .container {
+    margin-bottom: -7em;
+  }
+}
+
+/*curriculum*/
+
+.cv {
+  width: 70vw;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffffff;
+  position: relative;
+}
+.tit {
+  margin: 2.5em !important;
+  font-weight: bold;
 }
