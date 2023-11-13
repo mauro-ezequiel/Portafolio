@@ -5,7 +5,7 @@ function List() {
   console.log(style);
   return (
     <div className="list">
-      <div className="tit">skills I use:</div>
+      <div className="tit">Mis habilidades:</div>
       <div className="icon">
         <div id="bo">
           <ion-icon name="logo-react" />

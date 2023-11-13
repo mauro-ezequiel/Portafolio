@@ -4,8 +4,8 @@ import style from "../style/contact.modules.css";
 function Contact() {
   console.log(style);
   return (
-    <section className="clear" id="Contact">
-      <h1 className="title"> Contact </h1>
+    <section className="clear ">
+      <h1 className="title"> Contacto </h1>
       <div className="row">
         <div className="col-md-4">
           <h2 className="paragraph">

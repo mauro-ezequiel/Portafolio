@@ -15,7 +15,7 @@ export default function App() {
         <h1 className="title">
           Mauro Quispe
           <h2 className="title__two">
-            Web developer
+            Desarrollador web
             <h3 className="title__two-development">Front-end</h3>
           </h2>
         </h1>
@@ -23,7 +23,7 @@ export default function App() {
         <div className="s">
           <h2 className=" h">
             <i className="b1  bi-calendar4-event" />
-            20 year
+            20 Años
           </h2>
 
           <h2 className=" h">

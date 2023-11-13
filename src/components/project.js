@@ -20,12 +20,9 @@ function Project() {
       <div className="row">
         <div className="col-lg-4">
           <div className="car">
-            <Card
-              img={venta}
-              t="shopping app (using an API). with search and pagination"
-            />
+            <Card img={venta} />
             <div id="cap">
-              <h2 className="sub b">briefcase</h2>
+              <h2 className="sub ">Portafolio</h2>
               <a
                 href="https://github.com/mauro-ezequiel/shopping"
                 target="-blank"
@@ -59,7 +56,7 @@ function Project() {
               t="cell phone sales and repair app, with react router"
             />
             <div className="cap">
-              <h2 className="sub y">briefcase</h2>
+              <h2 className="sub y">Portafolio</h2>
               <a href="https://github.com/mauro-ezequiel/Phone" target="-blank">
                 <i class="be5 b y bi-github"></i>
               </a>
@@ -80,13 +77,13 @@ function Project() {
           </div>
         </div>
       </div>
-      <h1 className="title"> exercise</h1>
+      <h1 className="title"> Ejercicios</h1>
       <div className="row">
         <div className="col-lg-4">
           <div className="car">
             <Card img={calcu} t="basic calculations calculator" />
             <div className="cap">
-              <h2 className="sub y">briefcase</h2>
+              <h2 className="sub y">Portafolio</h2>
               <a
                 href="https://github.com/mauro-ezequiel/calculadora.github.io"
                 target="-blank"
@@ -112,7 +109,7 @@ function Project() {
           <div className="car">
             <Card img={click} t="click counter, exercise with useState hook" />
             <div className="cap">
-              <h2 className="sub y">briefcase</h2>
+              <h2 className="sub y">Portafolio</h2>
               <a
                 href="https://github.com/mauro-ezequiel/contador"
                 target="-blank"
@@ -139,7 +136,7 @@ function Project() {
             <Card img={txt} t="page replica" />
 
             <div className="cap">
-              <h2 className="sub">briefcase</h2>
+              <h2 className="sub">Portafolio</h2>
               <a
                 href="https://github.com/mauro-ezequiel/cuestionario.github.io"
                 target="-blank"
