@@ -6,8 +6,7 @@ function Card(props) {
 
   return (
     <div className="ca">
-      <img className="img " src={props.img} alt={props.alt} />
-      <div className="container"></div>
+      <img className="img" src={props.img} alt={props.alt} />
     </div>
   );
 }

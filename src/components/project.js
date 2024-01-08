@@ -1,7 +1,7 @@
 import React from "react";
+import style from "../style/project.modules.css";
 import Card from "./props";
 
-import style from "../style/project.modules.css";
 import calcu from "../img/calcu.png";
 import cell from "../img/cell.png";
 import click from "../img/click.png";
@@ -14,7 +14,6 @@ function Project() {
   return (
     <section className="dark x">
       <h1 className="title" id="Project">
-        {" "}
         project
       </h1>
       <div className="row">

@@ -17,6 +17,7 @@
 
 .be5 {
   position: absolute;
+  display: inline-block;
   top: 70%;
   left: 45%;
   transform: translate(-50%, -50%);
@@ -27,6 +28,7 @@
 
 .be {
   position: absolute;
+  display: inline-block;
   top: 70%;
   left: 55%;
   transform: translate(-50%, -50%);
@@ -52,6 +54,26 @@
   .z {
     margin-top: 5.5em;
   }
+  .trabajo {
+    flex-direction: column;
+  }
+  .t {
+    width: 90vw;
+    font-size: 0.6em;
+    margin: auto;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin-left: -2.5em;
+  }
+
+  .z1 {
+    margin-left: 2.5em !important;
+  }
+  .image {
+    margin-bottom: -1.5em;
+  }
 }
 
 .y {
@@ -62,4 +84,59 @@
   justify-content: center;
   align-items: center;
   margin-top: -3em;
+}
+
+.trabajo {
+  background-color: rgb(52, 26, 21);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 19em;
+}
+
+.text {
+  display: inline-block;
+  width: 90%;
+  padding: 1em;
+  color: rgb(255, 255, 255);
+
+  padding: 0 5em 0 2em;
+}
+.r {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  display: inline-block;
+  padding: 3em;
+  width: 100% !important;
+  border-radius: 4em;
+}
+
+.z1 {
+  display: inline-block;
+
+  left: 55%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.z2 {
+  display: inline-block;
+
+  left: 55%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+.z3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5em;
 }

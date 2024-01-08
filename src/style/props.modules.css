@@ -1,6 +1,7 @@
 .img {
   border-radius: 1em;
   height: 11em;
+  width: 20em;
 }
 
 .container {
@@ -8,7 +9,6 @@
 }
 
 .ca {
-  border-radius: 1em;
   height: 13em;
 
   display: flex;

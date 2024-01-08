@@ -4,6 +4,7 @@ import List from "./components/list";
 import ParticlesApp from "./components/particlesApp";
 import Project from "./components/project";
 import Contact from "./components/contact";
+import bw from "./img/bw.png";
 
 export default function App() {
   return (
@@ -34,6 +35,44 @@ export default function App() {
       </header>
 
       <List />
+
+      <div className="trabajo">
+        <div className="ca">
+          <a href="https://playful-pony-f05ead.netlify.app/" target="-blank">
+            <img className="  image " src={bw} alt="pagina 3d" />
+          </a>
+        </div>
+
+        <div className="text">
+          <h1 className="title t">Trabajo FreeLancer </h1>
+          <p className="t">
+            Página donde podrás comprar diferentes productos y realizar pedidos.
+            Está vinculado a las diferentes redes del fabricante y también a
+            "mercado libre" para que los pedidos lleguen a todas partes de
+            Argentina.
+          </p>
+
+          <div className=" t r  badges-container">
+            <span className="badge text-bg-primary">React</span>
+            <span className="badge text-bg-primary">vite</span>
+            <span className="badge text-bg-primary">javascript</span>
+            <span className="badge text-bg-primary">bootstrap</span>
+            <span className="badge text-bg-primary">css</span>
+            <span className="badge text-bg-primary">html</span>
+          </div>
+          <div className="z3">
+            <a
+              href="https://github.com/mauro-ezequiel/black-wolf"
+              target="-blank"
+            >
+              <i class="z1   b bi-github"></i>
+            </a>
+            <a href="https://playful-pony-f05ead.netlify.app/" target="-blank">
+              <i class=" z2  b bi-laptop"></i>
+            </a>
+          </div>
+        </div>
+      </div>
       <Project />
       <Contact />
 
