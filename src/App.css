@@ -22,11 +22,11 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
-  width: 100vw;
 }
 
 section {
   width: 100vw;
+  height: auto;
   background-color: rgb(255, 255, 255);
   flex-direction: column;
 }
@@ -120,6 +120,15 @@ section {
   font-size: 2rem;
   color: rgb(20, 92, 126);
   font-weight: bold;
+}
+
+.text {
+  display: inline-block;
+  width: 90%;
+  padding: 1em;
+  color: rgb(255, 255, 255);
+
+  padding: 0 5em 0 2em;
 }
 
 @media screen and (max-width: 820px) {

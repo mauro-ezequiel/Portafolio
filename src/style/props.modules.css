@@ -1,7 +1,9 @@
 .img {
-  border-radius: 1em;
-  height: 11em;
-  width: 20em;
+  border-radius: 5em;
+  width: 105%;
+  height: auto;
+  padding: 4em;
+  margin-top: 5em;
 }
 
 .container {
@@ -15,4 +17,18 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.ca:hover {
+  opacity: 0.5;
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 780px) {
+  .img {
+    border-radius: 1em;
+    width: 95vw;
+    height: auto;
+    padding: 0.5em;
+  }
 }

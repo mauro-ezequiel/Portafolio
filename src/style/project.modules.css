@@ -1,6 +1,26 @@
+#grid {
+  padding: 2em 3em;
+  columns: 2;
+  column-gap: 2em;
+}
+
 .car {
-  position: relative;
-  margin: 3.5em 0em;
+  animation: view linear both;
+  animation-timeline: view();
+  animation-range: entry 10% cover 30%;
+}
+
+@keyframes view {
+  from {
+    opacity: 0;
+    translate: 0 100px;
+    scale: 0.8;
+  }
+  to {
+    opacity: 1;
+    translate: 0 0;
+    scale: 1;
+  }
 }
 
 .sub {
@@ -37,23 +57,19 @@
   margin-left: 1rem;
 }
 
-.ca:hover {
-  opacity: 0.5;
-  transform: scale(1.05);
-}
-
 .b:hover {
   color: rgb(0, 0, 0);
   text-shadow: 2px 2px 4px rgb(62, 103, 144);
 }
 
 @media screen and (max-width: 780px) {
-  .car {
-    margin-top: 3em;
+  #grid {
+    columns: 1;
+    width: 100vw;
+    padding: 0;
+    margin-left: -1em;
   }
-  .z {
-    margin-top: 5.5em;
-  }
+
   .trabajo {
     flex-direction: column;
     height: 23.5em !important;
@@ -100,14 +116,6 @@
   height: 19em;
 }
 
-.text {
-  display: inline-block;
-  width: 90%;
-  padding: 1em;
-  color: rgb(255, 255, 255);
-
-  padding: 0 5em 0 2em;
-}
 .r {
   display: flex;
   align-items: center;

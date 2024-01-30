@@ -9,9 +9,11 @@ const ParticlesApp = () => {
   }, []);
 
   return (
-    <div className="particles">
-      <Particles options={ParticlesConfig} init={particlesInit} />
-    </div>
+    <>
+      <div id="particles">
+        <Particles options={ParticlesConfig} init={particlesInit} />
+      </div>
+    </>
   );
 };
 
