@@ -30,3 +30,7 @@
 html {
   scroll-behavior: 70px;
 }
+
+.active:hover {
+  text-shadow: 4px 1px 5px rgb(42, 41, 41);
+}
