@@ -1,7 +1,7 @@
 #grid {
-  padding: 2em 2em;
+  padding: 0em 2em;
   columns: 2;
-  column-gap: 2em;
+  column-gap: 1em;
 }
 
 .car {
@@ -11,12 +11,12 @@
 }
 
 @keyframes view {
-  from {
+  0% {
     opacity: 0;
     translate: 0 100px;
     scale: 0.8;
   }
-  to {
+  100% {
     opacity: 1;
     translate: 0 0;
     scale: 1;
