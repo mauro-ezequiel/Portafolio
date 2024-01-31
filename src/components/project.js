@@ -17,7 +17,7 @@ function Project() {
         project
       </h1>
       <div id="grid">
-        <div className="car">
+        <div className="car ">
           <Card img={venta} />
           <div id="cap">
             <h2 className="sub ">Portafolio</h2>
