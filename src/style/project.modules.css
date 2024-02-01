@@ -1,13 +1,12 @@
 #grid {
-  padding: 0em 2em;
-  columns: 2;
+  columns: 3;
   column-gap: 1em;
 }
 
 .car {
   animation: view linear both;
   animation-timeline: view();
-  animation-range: entry 10% cover 30%;
+  animation-range: entry 5% cover 30%;
 }
 
 @keyframes view {
@@ -114,6 +113,7 @@
   align-items: center;
   justify-content: center;
   height: 19em;
+  margin-top: 5em;
 }
 
 .r {
