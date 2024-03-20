@@ -147,18 +147,21 @@ section {
   .container {
     margin-bottom: -7em;
   }
+  .cv {
+    width: 80vw !important;
+  }
 }
 
 /*curriculum*/
 
 .cv {
-  width: 70vw;
+  width: 50vw;
   margin: auto;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: #ffffff;
+
   position: relative;
 }
 .tit {

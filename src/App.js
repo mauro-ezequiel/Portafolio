@@ -9,9 +9,8 @@ import bw from "./img/bw.png";
 export default function App() {
   return (
     <section className="dark">
-      <ParticlesApp />
       <Bar />
-
+      <ParticlesApp />
       <header className="container">
         <h1 className="title">
           Mauro Quispe

@@ -1,24 +1,21 @@
 .link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: rgb(177, 183, 183);
-  margin: 1em 35em;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 50%;
 }
 
 @media screen and (max-width: 820px) {
   .link {
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    max-width: 80%;
+    width: 40%;
   }
   .paragraph {
     font-size: 0.6rem;
 
-    width: 60%;
+    margin-left: 20% !important;
   }
 }
 
@@ -32,14 +29,13 @@
   max-width: 100%;
   font-family: "Orbitron";
   margin: auto;
-  margin-right: 1px;
 }
 
 .paragraph {
   font-size: 1.3rem;
   color: rgb(82, 82, 83);
   font-weight: bold;
-  margin: 1em 100px;
+  margin: 1em 7em;
   width: 60%;
 }
 

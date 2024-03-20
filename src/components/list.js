@@ -13,6 +13,12 @@ function List() {
         <h2 className="txt">REACT</h2>
       </div>
       <div className="icon">
+        <div id="bo">
+          <i class=" bi-filetype-tsx"></i>
+        </div>
+        <h2 className="txt">Typescript</h2>
+      </div>
+      <div className="icon">
         <div id="js">
           <ion-icon name="logo-javascript" />
         </div>
@@ -25,6 +31,14 @@ function List() {
 
         <h2 className="txt">HTML</h2>
       </div>
+
+      <div className="icon">
+        <div id="scss">
+          <i class="bi bi-filetype-scss"></i>
+        </div>
+        <h2 className="txt">SCSS</h2>
+      </div>
+
       <div className="icon">
         <div id="bo">
           <ion-icon name="logo-css3" />
