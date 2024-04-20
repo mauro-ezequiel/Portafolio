@@ -1,44 +1,47 @@
+import { Link } from "react-router-dom";
 import React from "react";
 import style from "../style/bar.modules.css";
 
 function Navbar() {
   console.log(style);
   return (
-    <div className="bar">
-      <nav class="navbar navbar-expand-lg  ">
-        <div class="container-fluid">
-          <a className="navbar-brand" href="/">
-            Mauro Quispe
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbar-toggler"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbar-toggler">
-            <ul class="navbar-nav ">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/">
-                  Inicio
-                </a>
-              </li>
+    <nav
+      className="navbar navbar-expand-md bg-body-tertiary"
+      aria-controls="responsive-navbar-nav"
+      id="nav"
+    >
+      <div className="container-fluid">
+        <Link className="navbar-brand m" to="/">
+          Mauro Quispe
+        </Link>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+            <li className="nav-item" id="bar">
+              <Link className="navbar-brand " to="/">
+                Home
+              </Link>
+            </li>
 
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="/cv">
-                  curriculum
-                </a>
-              </li>
-            </ul>
-          </div>
+            <li className="nav-item">
+              <Link className="navbar-brand " id="bar" to="/cv">
+                curriculum
+              </Link>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
   );
 }
 

@@ -1,7 +1,7 @@
 import React from "react";
 import style from "../style/project.modules.css";
 import Card from "./props";
-
+import tarea from "../img/tarea.png";
 import calcu from "../img/calcu.png";
 import cell from "../img/cell.png";
 import click from "../img/click.png";
@@ -17,6 +17,25 @@ function Project() {
         project
       </h1>
       <div id="grid">
+        <div className="car ">
+          <Card img={tarea} />
+          <div id="cap">
+            <h2 className="sub y ">Portafolio</h2>
+            <a
+              href="https://github.com/mauro-ezequiel/Agenda-de-tareas"
+              target="-blank"
+            >
+              <i class="be5 y b bi-github"></i>
+            </a>
+            <a
+              href="https://capable-zuccutto-3cb850.netlify.app/"
+              target="-blank"
+            >
+              <i class="be b y bi-laptop"></i>
+            </a>
+          </div>
+        </div>
+
         <div className="car ">
           <Card img={venta} />
           <div id="cap">
