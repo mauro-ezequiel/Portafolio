@@ -26,3 +26,13 @@
 #bar:hover {
   text-shadow: 4px 1px 5px rgb(42, 41, 41);
 }
+
+@media screen and (max-width: 820px) {
+  .m {
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+  #bar {
+    margin-left: 0em;
+  }
+}
