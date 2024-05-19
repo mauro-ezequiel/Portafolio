@@ -6,7 +6,7 @@ function Contact() {
   return (
     <section className="clear ">
       <div id="contact">
-        <h1 className="title"> Contacto </h1>
+        <h1 className="title_contact"> Contacto </h1>
         <div className="row">
           <div className="col-md-6 p-0">
             <h2 className="paragraph">

@@ -35,7 +35,7 @@ function Navbar() {
 
             <li className="nav-item">
               <Link className="navbar-brand " id="bar" to="/cv">
-                curriculum
+                Curriculum
               </Link>
             </li>
           </ul>

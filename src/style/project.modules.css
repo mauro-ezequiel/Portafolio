@@ -71,7 +71,7 @@
 
   .trabajo {
     flex-direction: column;
-    height: 23.5em !important;
+    height: 23.5em;
   }
 
   .t {
@@ -88,10 +88,10 @@
   }
 
   .z1 {
-    margin-left: 2.5em !important;
+    margin-left: 2.5em;
   }
   .image {
-    width: 90% !important;
+    width: 90%;
     margin-left: 5%;
   }
 }

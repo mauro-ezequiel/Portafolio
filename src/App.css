@@ -32,7 +32,7 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin: 30px 0px 50px 0px;
+  margin: 3.5em 0em 1em 0em;
   text-shadow: 2px 2px 4px rgb(42, 41, 41);
   font-family: "Fjalla One", sans-serif;
 }
@@ -94,16 +94,29 @@ section {
   right: 0;
 }
 
-.h {
+.h_informatico {
   display: inline;
   margin: 1.5em;
   font-size: 1.5rem;
 }
+
+.bi-calendar4-event {
+  padding: 0.5em;
+}
+
+.bi-geo-alt {
+  padding: 0.5em;
+}
+
 .s {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: -2em;
+}
+
+.badge {
+  margin: 0.5em;
 }
 
 .b1 {
@@ -118,11 +131,11 @@ section {
   padding: 1em;
   color: rgb(255, 255, 255);
 
-  padding: 0 5em 0 2em;
+  padding: 0em 7em 5em 7em;
 }
 
 @media screen and (max-width: 820px) {
-  .h {
+  .h_informatico {
     font-size: 1rem;
     margin: 1em;
   }
@@ -138,7 +151,7 @@ section {
     margin-bottom: -7em;
   }
   .cv {
-    width: 95vw !important;
+    width: 95vw;
   }
 }
 
@@ -155,6 +168,6 @@ section {
   position: relative;
 }
 .tit {
-  margin: 2.5em !important;
+  margin: 2.5em;
   font-weight: bold;
 }

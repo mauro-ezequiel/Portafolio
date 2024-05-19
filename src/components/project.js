@@ -13,9 +13,7 @@ function Project() {
 
   return (
     <section className="dark x">
-      <h1 className="title" id="Project">
-        project
-      </h1>
+      <h1 className="title">PROYECTO</h1>
       <div id="grid">
         <div className="car ">
           <Card img={tarea} />

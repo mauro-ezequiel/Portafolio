@@ -21,12 +21,12 @@ export default function App() {
         </h1>
 
         <div className="s">
-          <h2 className=" h">
+          <h2 className=" h_informatico">
             <i className="b1  bi-calendar4-event" />
             20 Años
           </h2>
 
-          <h2 className=" h">
+          <h2 className=" h_informatico">
             <i className="b1 bi-geo-alt" />
             ARGENTINA
           </h2>
