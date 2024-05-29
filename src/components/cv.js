@@ -5,18 +5,16 @@ import cv from "../img/cv.jpg";
 
 export function Cv() {
   return (
-    <>
-      <section className="dark ">
-        <Bar />
-        <ParticlesApp />
+    <section className="dark ">
+      <Bar />
 
-        <h1 className="tit title">CURRICULUM</h1>
+      <h1 className="tit title">CURRICULUM</h1>
 
-        <div className="cv">
-          <img className="cv" src={cv} alt="curriculum" />
-        </div>
-        <Contact />
-      </section>
-    </>
+      <div className="container-cv">
+        <img id="cv" src={cv} alt="curriculum" />
+      </div>
+
+      <Contact />
+    </section>
   );
 }

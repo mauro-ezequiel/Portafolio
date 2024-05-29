@@ -125,10 +125,10 @@ section {
   font-weight: bold;
 }
 
-.text {
+#text {
   display: inline-block;
   width: 90%;
-  padding: 1em;
+  text-align: center;
   color: rgb(255, 255, 255);
 
   padding: 0em 7em 5em 7em;
@@ -157,15 +157,11 @@ section {
 
 /*curriculum*/
 
-.cv {
-  width: 50vw;
-  margin: auto;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-
-  position: relative;
+.container-cv {
+  text-align: center;
+}
+#cv {
+  width: 50%;
 }
 .tit {
   margin: 2.5em;

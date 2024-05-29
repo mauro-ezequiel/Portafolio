@@ -10,7 +10,7 @@ export default function App() {
   return (
     <section className="dark">
       <Bar />
-      <ParticlesApp />
+
       <header className="container">
         <h1 className="title">
           Mauro Quispe
@@ -38,11 +38,11 @@ export default function App() {
       <div className="trabajo">
         <div className="ca">
           <a href="https://playful-pony-f05ead.netlify.app/" target="-blank">
-            <img className="  image " src={bw} alt="pagina 3d" />
+            <img className="image" src={bw} alt="pagina 3d" />
           </a>
         </div>
 
-        <div className="text">
+        <div id="text">
           <h1 className="title t">Trabajo FreeLancer </h1>
           <p className="t">
             Página donde podrás comprar diferentes productos y realizar pedidos.
@@ -51,7 +51,7 @@ export default function App() {
             Argentina.
           </p>
 
-          <div className=" t r  badges-container">
+          <div className="  t badges-container">
             <span className="badge text-bg-primary">React</span>
             <span className="badge text-bg-primary">vite</span>
             <span className="badge text-bg-primary">javascript</span>
@@ -59,15 +59,17 @@ export default function App() {
             <span className="badge text-bg-primary">css</span>
             <span className="badge text-bg-primary">html</span>
           </div>
-          <div className="z3">
+
+          <br />
+          <div className="icon_trabajo">
             <a
               href="https://github.com/mauro-ezequiel/black-wolf"
               target="-blank"
             >
-              <i class="z1   b bi-github"></i>
+              <i class="git   bi-github"></i>
             </a>
             <a href="https://playful-pony-f05ead.netlify.app/" target="-blank">
-              <i class=" z2  b bi-laptop"></i>
+              <i class="git  bi-laptop"></i>
             </a>
           </div>
         </div>
@@ -76,7 +78,7 @@ export default function App() {
       <Contact />
 
       <a href="https://wa.me/541150941389" id="btn" target="-blank">
-        <i class="what bi-whatsapp" />
+        <i class=" bi-whatsapp" />
       </a>
     </section>
   );

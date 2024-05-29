@@ -48,20 +48,24 @@
   }
 }
 
-img {
-  width: 100%;
-  max-height: 15em;
-}
-
 @media screen and (max-width: 780px) {
   .trabajo {
     flex-direction: column;
-    height: 23.5em;
+    min-height: 30em;
+    padding-top: 5em;
+    width: 100vw;
   }
 
   .image {
-    width: 90%;
-    margin-left: 5%;
+    width: 95vw;
+  }
+  .t {
+    width: 90vw;
+    margin-left: -9em;
+    font-size: 0.8em;
+  }
+  .icon_trabajo {
+    display: flex;
   }
 }
 
@@ -74,8 +78,19 @@ img {
   height: 19em;
   margin-top: 5em;
 }
+.ca {
+  width: 80%;
+
+  padding-left: 4.5%;
+}
 .image {
   display: inline-block;
   width: 100%;
   border-radius: 1em;
+}
+
+.git {
+  padding: 0.5em;
+  font-size: 2em;
+  color: aliceblue;
 }
