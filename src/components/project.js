@@ -1,6 +1,6 @@
 import React from "react";
 import style from "../style/project.modules.css";
-import Card from "./props";
+
 import tarea from "../img/tarea.png";
 import calcu from "../img/calcu.png";
 import cell from "../img/cell.png";
@@ -14,116 +14,142 @@ function Project() {
   return (
     <section className="dark x">
       <h1 className="title">PROYECTO</h1>
-      <div id="grid">
-        <div className="car ">
-          <Card img={tarea} />
-          <div id="cap">
-            <h2 className="sub y ">Portafolio</h2>
-            <a
-              href="https://github.com/mauro-ezequiel/Agenda-de-tareas"
-              target="-blank"
-            >
-              <i class="be5 y b bi-github"></i>
-            </a>
-            <a
-              href="https://capable-zuccutto-3cb850.netlify.app/"
-              target="-blank"
-            >
-              <i class="be b y bi-laptop"></i>
-            </a>
+      <div id="container_grid">
+        <div id="grid">
+          <div className="car">
+            <div className="card">
+              <a
+                href="https://capable-zuccutto-3cb850.netlify.app/"
+                target="-blank"
+              >
+                <img src={tarea} className="card-img-top" alt="22" />
+              </a>
+
+              <div className="card-body">
+                <h5 className="card-title">Anotador de tareas</h5>
+                <p className="card-text">
+                  Se colocan tareas y tiene un botón para eliminar, agregar y
+                  dejarla como tarea pendiente.
+                </p>
+
+                <br />
+                <a
+                  href="https://github.com/mauro-ezequiel/black-wolf"
+                  target="-blank"
+                >
+                  <i class="proyect_icon   b bi-github"></i>
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
-
-        <div className="car ">
-          <Card img={venta} />
-          <div id="cap">
-            <h2 className="sub ">Portafolio</h2>
-            <a
-              href="https://github.com/mauro-ezequiel/shopping"
-              target="-blank"
-            >
-              <i class="be5 b bi-github"></i>
-            </a>
-            <a href="https://chic-duckanoo-84fd3a.netlify.app/" target="-blank">
-              <i class="be b bi-laptop"></i>
-            </a>
+          <div className="car">
+            <div className="card">
+              <a
+                href="https://chic-duckanoo-84fd3a.netlify.app/"
+                target="-blank"
+              >
+                <img src={venta} className="card-img-top" alt="22" />
+              </a>
+              <div className="card-body">
+                <h5 className="card-title">Ecomerce de productos</h5>
+                <p className="card-text">
+                  Aquí descomprimi una API y coloqué un buscador con filtro y
+                  paginación.
+                </p>
+                <a
+                  href="https://github.com/mauro-ezequiel/black-wolf"
+                  target="-blank"
+                >
+                  <i class="proyect_icon   b bi-github"></i>
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
 
-        <div className="car">
-          <Card
-            img={cell}
-            t="cell phone sales and repair app, with react router"
-          />
-          <div className="cap">
-            <h2 className="sub y">Portafolio</h2>
-            <a href="https://github.com/mauro-ezequiel/Phone" target="-blank">
-              <i class="be5 b y bi-github"></i>
-            </a>
-            <a
-              href="https://earnest-pothos-6d3821.netlify.app/"
-              target="-blank"
-            >
-              <i class="be y b bi-laptop"></i>
-            </a>
+          <div className="car">
+            <div className="card">
+              <a
+                href="https://frabjous-stroopwafel-f50188.netlify.app/"
+                target="-blank"
+              >
+                <img src={calcu} className="card-img-top" alt="22" />
+              </a>
+              <div className="card-body">
+                <h5 className="card-title">Calculadora</h5>
+                <p className="card-text">calculadora de uso simple</p>
+                <a
+                  href="https://github.com/mauro-ezequiel/black-wolf"
+                  target="-blank"
+                >
+                  <i class="proyect_icon   b bi-github"></i>
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
-
-        <div className="car">
-          <Card img={calcu} t="basic calculations calculator" />
-          <div className="cap">
-            <h2 className="sub y">Portafolio</h2>
-            <a
-              href="https://github.com/mauro-ezequiel/calculadora.github.io"
-              target="-blank"
-            >
-              <i class="be5 y b bi-github"></i>
-            </a>
-            <a
-              href="https://frabjous-stroopwafel-f50188.netlify.app/"
-              target="-blank"
-            >
-              <i class="be b y bi-laptop"></i>
-            </a>
+          <div className="car">
+            <div className="card">
+              <a
+                href="https://earnest-pothos-6d3821.netlify.app/"
+                target="-blank"
+              >
+                <img src={cell} className="card-img-top" alt="22" />
+              </a>
+              <div className="card-body">
+                <h5 className="card-title">Arreglo y venta de celulares</h5>
+                <p className="card-text">
+                  Aquí puedes contactarnos para darnos detalles de tu situación
+                  con tu celular. y puedes comprar otros celulares y accesorios
+                </p>
+                <a
+                  href="https://github.com/mauro-ezequiel/black-wolf"
+                  target="-blank"
+                >
+                  <i class="proyect_icon   b bi-github"></i>
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
 
-        <div className="car">
-          <Card img={click} t="click counter, exercise with useState hook" />
-          <div className="cap">
-            <h2 className="sub y">Portafolio</h2>
-            <a
-              href="https://github.com/mauro-ezequiel/contador"
-              target="-blank"
-            >
-              <i class="be5 y b bi-github"></i>
-            </a>
-            <a
-              href="https://frolicking-frangollo-bea818.netlify.app/"
-              target="-blank"
-            >
-              <i class="be b y bi-laptop"></i>
-            </a>
+          <div className="car">
+            <div className="card">
+              <a
+                href="https://frolicking-frangollo-bea818.netlify.app"
+                target="-blank"
+              >
+                <img src={click} className="card-img-top" alt="22" />
+              </a>
+              <div className="card-body">
+                <h5 className="card-title">Contador de click</h5>
+                <p className="card-text">1er uso de estados que e aplicado</p>
+                <br />
+                <a
+                  href="https://github.com/mauro-ezequiel/black-wolf"
+                  target="-blank"
+                >
+                  <i class="proyect_icon   b bi-github"></i>
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
-
-        <div className="car">
-          <Card img={txt} t="page replica" />
-
-          <div className="cap">
-            <h2 className="sub">Portafolio</h2>
-            <a
-              href="https://github.com/mauro-ezequiel/cuestionario.github.io"
-              target="-blank"
-            >
-              <i class="be5 b bi-github"></i>
-            </a>
-            <a
-              href="https://charming-bavarois-0c6102.netlify.app/"
-              target="-blank"
-            >
-              <i class="be b bi-laptop"></i>
-            </a>
+          <div className="car">
+            <div className="card">
+              <a
+                href="https://charming-bavarois-0c6102.netlify.app/"
+                target="-blank"
+              >
+                <img src={txt} className="card-img-top" alt="22" />
+              </a>
+              <div className="card-body">
+                <h5 className="card-title">1er pagina</h5>
+                <p className="card-text">html y css.</p>
+                <a
+                  href="https://github.com/mauro-ezequiel/black-wolf"
+                  target="-blank"
+                >
+                  <i class="proyect_icon   b bi-github"></i>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

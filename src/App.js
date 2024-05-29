@@ -76,7 +76,7 @@ export default function App() {
       <Contact />
 
       <a href="https://wa.me/541150941389" id="btn" target="-blank">
-        <i class="b bi-whatsapp" />
+        <i class="what bi-whatsapp" />
       </a>
     </section>
   );
