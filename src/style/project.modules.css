@@ -1,5 +1,5 @@
 #container_grid {
-  width: 80%;
+  width: 75vw;
   margin: 0 auto;
 }
 
@@ -18,7 +18,7 @@
 }
 .car {
   border-radius: 4px;
-  width: 100%;
+
   height: auto;
   margin-bottom: 32px;
   animation: view linear both;
@@ -66,6 +66,16 @@
   }
   .icon_trabajo {
     display: flex;
+  }
+
+  /*card de cada pagina*/
+  #grid {
+    columns: 1;
+    margin-left: -5em;
+  }
+
+  .car {
+    width: 90vw;
   }
 }
 

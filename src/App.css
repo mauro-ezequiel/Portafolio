@@ -85,14 +85,6 @@ section {
 }
 
 /* estilos especificos*/
-.x {
-  width: 90vw;
-  margin: auto;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
 
 .h_informatico {
   display: inline;

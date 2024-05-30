@@ -8,12 +8,12 @@ function Contact() {
       <div id="contact">
         <h1 className="title_contact"> Contacto </h1>
         <div className="row">
-          <div className="col-md-6 p-0">
-            <h2 className="paragraph">
+          <div className="col-md-6 ">
+            <h4 className="paragraph">
               Puedes contactarme en las siguientes redes:
-            </h2>
+            </h4>
           </div>
-          <div className="col-md-6 p-0">
+          <div className="col-md-6 ">
             <div className="link">
               <a href="https://github.com/mauro-ezequiel" target="-blank">
                 <i class="bo bi-github"></i>
