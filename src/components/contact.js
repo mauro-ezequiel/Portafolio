@@ -23,10 +23,7 @@ function Contact() {
                 <i class="bo bi-whatsapp" />
               </a>
 
-              <a
-                href="https://mail.google.com/mail/u/0/#search/from%3A%40jooble.org+in%3Aanywhere/FMfcgzGtwCtTwJMFtBCXBlHLrcdTZmpk"
-                target="-blank"
-              >
+              <a href="mailto:mauroezequiel3171@gmail.com" target="-blank">
                 <i class="bo bi-envelope-at-fill"></i>
               </a>
             </div>

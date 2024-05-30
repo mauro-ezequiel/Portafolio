@@ -7,6 +7,7 @@ export function Cv() {
   return (
     <section className="dark ">
       <Bar />
+      <ParticlesApp />
 
       <h1 className="tit title">CURRICULUM</h1>
 

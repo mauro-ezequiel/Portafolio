@@ -142,8 +142,10 @@ section {
   .container {
     margin-bottom: -7em;
   }
-  .cv {
-    width: 95vw;
+  #cv#cv {
+    width: 80vw;
+
+    margin-left: -2em;
   }
 }
 
@@ -154,6 +156,8 @@ section {
 }
 #cv {
   width: 50%;
+
+  position: relative;
 }
 .tit {
   margin: 2.5em;

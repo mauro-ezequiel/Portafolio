@@ -10,6 +10,7 @@ export default function App() {
   return (
     <section className="dark">
       <Bar />
+      <ParticlesApp />
 
       <header className="container">
         <h1 className="title">
